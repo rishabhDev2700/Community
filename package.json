@@ -1,0 +1,9 @@
+{
+  "name": "community",
+  "version": "1.0.0",
+  "description": "Main community website",
+  "main": "index.js",
+  "repository": "https://github.com/rishabhDev2700/Community",
+  "author": "Rishabh",
+  "license": "MIT"
+}
