@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/rishabhDev2700/Community",
   "author": "Rishabh",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
 }
