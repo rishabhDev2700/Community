@@ -1,29 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
     <title>Title</title>
-</head>
-<body>
-    <div class="flex bg-black justify-around py-4">
-        <div class="brand"><img src="/default.svg" alt=""></div>
-        <ul class="text-white flex justify-evenly">
-            <li><a class="px-3 py-1" href="#">Home</a></li>
-            <li><a class="px-3 py-1" href="#">Work</a></li>
-            <li><a class="px-3 py-1" href="#">Services</a></li>
-            <li><a class="px-3 py-1" href="#">Blog</a></li>
-        </ul>
+  </head>
+  <body>
+    <div class="flex bg-green-800 opacity-90 justify-around py-4 w-full fixed z-20">
+      <div class="brand"><img src="/default.svg" alt="" /></div>
+      <ul class="text-white flex justify-evenly">
+        <li><a class="px-3 py-1" href="#">Home</a></li>
+        <li><a class="px-3 py-1" href="#">Work</a></li>
+        <li><a class="px-3 py-1" href="#">Services</a></li>
+        <li><a class="px-3 py-1" href="#">Blog</a></li>
+      </ul>
     </div>
-   <div class="bg-black p-12">
-       <div class="relative text-white hero-text m-12 ">
-           <div class="text-4xl font-bold">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt 
-           </div>
-           <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit unde ea enim dolore asperiores error tempore sint veritatis totam ipsum alias, animi quia itaque, aliquam aliquid quaerat labore illo.</div>
-       </div>
-   </div>
-</body>
+    <div class="hero h-full">
+      <video class="object-fill h-96" src="/src/videos/video.mp4" loop autoplay muted></video>
+      <div class="hero-text absolute top-32 text-white text-center">
+        <div class="hero-title text-2xl">
+          A community of learners, coder, engineers
+        </div>
+        <div class="hero-subtitle text-md my-8 mx-2">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.blanditiis error veritatis repudiandae praesentium nemo.
+        </div>
+      </div>
+    </div>
+    <div class="my-12 mx-10">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, eligendi natus sunt culpa fugit voluptatibus libero officiis ullam sequi vitae voluptates deserunt quasi, debitis, optio perferendis dignissimos ratione ea rem!
+    </div>
+    <hr> 
+    <hr> 
+    <div class="work my-3">
+      <div class="m-4 text-center text-4xl">
+        Work
+      </div>
+      <div class="overflow-x-auto h-full flex">
+        <img src="https://144ontour.com/wp-content/uploads/2017/11/Webdesign.jpg" alt="">
+        <img src="https://th.bing.com/th/id/R.dce275e8bd7a96e4e9c3ce245fb9b689?rik=pCUzATtAdaQ9Nw&pid=ImgRaw&r=0" alt="">
+        <img src="https://th.bing.com/th/id/R.7061f180fcb6a134f157a1a17b539469?rik=OXJLH6BPfZIF8g&pid=ImgRaw&r=0" alt="">
+        <img src="https://144ontour.com/wp-content/uploads/2017/11/Webdesign.jpg" alt="">
+        <img src="https://th.bing.com/th/id/R.dce275e8bd7a96e4e9c3ce245fb9b689?rik=pCUzATtAdaQ9Nw&pid=ImgRaw&r=0" alt="">
+        <img src="https://th.bing.com/th/id/R.7061f180fcb6a134f157a1a17b539469?rik=OXJLH6BPfZIF8g&pid=ImgRaw&r=0" alt="">
+      </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="services">
+      <div class="text-4xl text-center my-4">Services</div>
+      <div class="flex flex-col mx-2">
+        <div class="card hover:scale-105 duration-200 ease-in-out p-2 my-5 border-2 rounded-xl shadow-md shadow-gray-600 mx-4">
+          <img src="/src/svgs/coding.svg" alt="" class="w-96 mx-auto">
+          <div class="text-xl text-black">Computer Applications</div>
+        </div>
+        <div class="card hover:scale-105 duration-200 ease-in-out p-2 my-5 border-2 rounded-xl shadow-md shadow-gray-600 mx-4">
+          <img src="/src/svgs/design.svg" alt="" class="w-96 mx-auto">
+          <div class="text-xl text-black">Web and Mobile Design</div>
+        </div>
+        <div class="card hover:scale-105 duration-200 ease-in-out p-2 my-5 border-2 rounded-xl shadow-md shadow-gray-600 mx-4">
+          <img src="/src/svgs/web.svg" alt="" class="w-96 mx-auto">
+          <div class="text-xl text-black">Complete Web development</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
